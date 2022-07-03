@@ -1,0 +1,11 @@
+.link {
+    text-decoration: none;
+    color: #00b7ff;;
+    &:hover {
+        border-bottom:3px solid white
+    }
+}
+
+.projects {
+    margin-top: 40px;
+}

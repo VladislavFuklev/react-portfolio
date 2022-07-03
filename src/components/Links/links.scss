@@ -1,0 +1,17 @@
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.icons-item {
+    font-size: 40px;
+    color: white;
+    transition: 0.5s;
+    margin-top: 10px;
+    &:hover {
+        color: #639;
+    }
+}

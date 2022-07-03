@@ -1,0 +1,38 @@
+
+.descr {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+}
+
+.hello {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.descr-text {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.descr-btn {
+    margin-top: 20px;
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    &:hover {
+        color: white;
+        background-color: #639;
+
+    }
+}

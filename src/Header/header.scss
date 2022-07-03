@@ -1,0 +1,37 @@
+.header {
+    margin-top: 20px;
+    background-color: #639;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 24px 1px #639;
+    border-radius: 3px;
+}
+
+.name {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.forme {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-NavLink {
+    color:gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.active-menu-NavLink {
+    color:white;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
