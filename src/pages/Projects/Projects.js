@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./projects.scss";
 export const Projects = () => {
   return (
@@ -10,6 +9,7 @@ export const Projects = () => {
             href={"https://luminous-cuchufli-914d57.netlify.app/"}
             target="_blank"
             className="link"
+            rel="noreferrer"
           >
             Блог
           </a>{" "}
@@ -22,6 +22,7 @@ export const Projects = () => {
             href={"https://extraordinary-centaur-88d5e0.netlify.app/"}
             target="_blank"
             className="link"
+            rel="noreferrer"
           >
             Фейковий інтернет-магазин
           </a>{" "}
@@ -35,6 +36,7 @@ export const Projects = () => {
             href={"https://vladislavfuklev.github.io/SliderNativeJs/"}
             target="_blank"
             className="link"
+            rel="noreferrer"
           >
             Слайдер
           </a>{" "}
@@ -46,6 +48,7 @@ export const Projects = () => {
             href={"https://vladislavfuklev.github.io/Grid-Template/"}
             target="_blank"
             className="link"
+            rel="noreferrer"
           >
             Шаблон
           </a>{" "}
@@ -56,6 +59,7 @@ export const Projects = () => {
             href={"https://vladislavfuklev.github.io/ProjectForScss/"}
             target="_blank"
             className="link"
+            rel="noreferrer"
           >
             Шаблон
           </a>{" "}
@@ -66,6 +70,7 @@ export const Projects = () => {
             href={"https://vladislavfuklev.github.io/ModestNew/"}
             target="_blank"
             className="link"
+            rel="noreferrer"
           >
             Шаблон
           </a>{" "}
@@ -78,6 +83,7 @@ export const Projects = () => {
             href={"https://vladislavfuklev.github.io/TestJun/"}
             target="_blank"
             className="link"
+            rel="noreferrer"
           >
             Шаблон
           </a>{" "}
