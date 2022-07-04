@@ -5,7 +5,7 @@ export const Projects = () => {
     <div className="descr">
         <div>
           <a
-            href={"https://luminous-cuchufli-914d57.netlify.app/"}
+            href={"https://fyklev-blog.netlify.app/"}
             target="_blank"
             className="link"
             rel="noreferrer"
@@ -18,7 +18,7 @@ export const Projects = () => {
         </div>
         <div>
           <a
-            href={"https://extraordinary-centaur-88d5e0.netlify.app/"}
+            href={"https://fyklev-fake-shop.netlify.app/"}
             target="_blank"
             className="link"
             rel="noreferrer"
