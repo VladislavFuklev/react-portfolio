@@ -1,6 +1,5 @@
 .about {
     text-align: center;
-    margin-top: 60px;
 }
 .about-title {
     color: white;
@@ -10,8 +9,18 @@
     font-size: 16px;
 }
 
-@media (max-width:786px) {
+@media (max-width:768px) {
     .about-title {
         font-size: 20px;
     }
 }
+
+@media (max-width:400px) {
+    .descr {
+        font-size: 11px;
+    }
+    .about-text {
+        font-size: 12px;
+    }
+}
+

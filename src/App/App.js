@@ -11,9 +11,11 @@ function App() {
       <Container style={{ maxWidth: "700px" }}>
         <div className="bgc"></div>
         <CssBaseline />
-        <Header />
-        <Main />
-        <Footer />
+        <div className="aaa">
+          <Header />
+          <Main />
+          <Footer />
+        </div>
       </Container>
     </>
   );

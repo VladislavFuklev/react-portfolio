@@ -1,11 +1,8 @@
 .descr {
     text-align: center;
     color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .hello {
@@ -57,5 +54,10 @@
 
     .descr-btn {
         font-size: 15px;
+    }
+}
+@media (max-width:400px) {
+    .descr-text {
+        font-size: 12px;
     }
 }
