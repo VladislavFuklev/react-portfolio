@@ -7,4 +7,11 @@
 }
 .about-text {
     color: white;
+    font-size: 16px;
+}
+
+@media (max-width:786px) {
+    .about-title {
+        font-size: 20px;
+    }
 }

@@ -7,3 +7,16 @@
     transform: translate(-50%, -50%);
 
 }
+
+@media (max-width:786px) {
+    .footer {
+        bottom: 50px
+    }
+}
+
+
+@media (max-width:375px) {
+    .footer {
+        font-size: 12px;
+    }
+}

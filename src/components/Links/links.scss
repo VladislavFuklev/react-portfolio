@@ -6,12 +6,36 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 .icons-item {
     font-size: 40px;
     color: white;
     transition: 0.5s;
     margin-top: 10px;
+
     &:hover {
         color: #639;
+    }
+}
+
+@media (max-width:768px) {
+    .icons {
+        flex-direction: row;
+        left: 50%;
+        position: absolute;
+        top: 93%;
+        transform: translate(-50%, 0);
+
+    }
+    .icons-item {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width:375px) {
+    .icons {
+        top: 93%;
     }
 }

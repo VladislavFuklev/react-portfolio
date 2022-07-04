@@ -3,7 +3,7 @@ import "./projects.scss";
 export const Projects = () => {
   return (
     <div className="descr">
-      <div className="descr-text">
+      <div className="descr-text w768">
         <div>
           <a
             href={"https://luminous-cuchufli-914d57.netlify.app/"}
