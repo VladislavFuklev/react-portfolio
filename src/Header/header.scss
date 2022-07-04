@@ -35,3 +35,17 @@
     text-decoration: none;
     border-bottom: 3px solid white;
 }
+
+@media (max-width:400px) {
+    .menu-NavLink  {
+        font-size: 12px;
+    }
+    .active-menu-NavLink {
+        font-size: 12px;
+
+    }
+    .forme {
+        gap: 1px;
+        flex-direction: column;
+    }
+}
