@@ -1,6 +1,5 @@
 import React from "react";
 import {FaInstagram, FaFacebookF, FaTwitter, FaGithub} from 'react-icons/fa';
-import { Link } from "react-router-dom";
 import './links.scss'
 
 
